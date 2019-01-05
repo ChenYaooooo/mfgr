@@ -1,3 +1,6 @@
 .clickable {
     cursor: pointer;
 }
+.swiper-pagination-bullet {
+    background: white !important;
+  }
