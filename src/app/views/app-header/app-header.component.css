@@ -1,5 +1,12 @@
 .header-font{
-    font-size: 30px;
+    font-size: 20px;
     width: 100%;
     text-align: center;
+    font-family: SIL-Hei-Med-Jian;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 38px;
+}
+.img-container{
+    width: 40px;
 }

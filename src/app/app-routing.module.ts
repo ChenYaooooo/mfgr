@@ -12,9 +12,9 @@ const routes: Routes = [
   { path: 'hello', component: HelloWorldComponent },
   { path: 'dashboard', component: AppDashboardComponent },
   { path: 'aboutus', component: AppAboutUsComponent },
-  { path: 'contact', component: AppContactComponent },
+  { path: 'contactus', component: AppContactComponent },
   { path: 'order', component: AppOrderComponent },
-  { path: 'product', component: AppProductServiceComponent },
+  { path: 'productandservice', component: AppProductServiceComponent },
 ];
 
 @NgModule({
