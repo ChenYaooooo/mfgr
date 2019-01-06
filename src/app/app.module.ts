@@ -14,6 +14,7 @@ import { AppContactComponent } from './views/app-contact/app-contact.component';
 import { HelloWorldComponent } from './views/hello-world/hello-world.component';
 import { Header1Component } from './views/header1/header1.component';
 import { DashboardSwiperComponent } from './views/card/dashboard-swiper/dashboard-swiper.component';
+import { ImageAutoPlayComponent } from './views/image-auto-play/image-auto-play.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { DashboardSwiperComponent } from './views/card/dashboard-swiper/dashboar
     AppContactComponent,
     HelloWorldComponent,
     Header1Component,
-    DashboardSwiperComponent
+    DashboardSwiperComponent,
+    ImageAutoPlayComponent
   ],
   imports: [
     BrowserModule,
