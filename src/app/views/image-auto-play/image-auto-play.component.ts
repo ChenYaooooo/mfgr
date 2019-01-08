@@ -20,13 +20,13 @@ export class ImageAutoPlayComponent implements AfterViewInit {
     var leftNum = -1800;
       // setTimeout(document.getElementById('image-gallery').style.left = leftNum + 'px', 3000);
       window.setInterval(function () {
-        leftNum = leftNum + 4;
+        leftNum = leftNum - 1;
         document.getElementById('image-gallery').style.left = leftNum + 'px';
         console.log(leftNum);
       if (leftNum > 0) {
         leftNum = -1800;
       }
-      }, 500); // repeat forever, polling every 3 seconds
+      }, 100); // repeat forever, polling every 3 seconds
 
   }
 }
