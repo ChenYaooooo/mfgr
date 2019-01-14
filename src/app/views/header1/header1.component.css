@@ -13,3 +13,7 @@
     line-height: 48px;
     margin-right:10px;
 }
+
+.hoverEffect:hover{
+    color: red;
+}
