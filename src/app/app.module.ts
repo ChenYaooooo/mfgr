@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './/app-routing.module';
@@ -15,7 +14,8 @@ import { HelloWorldComponent } from './views/hello-world/hello-world.component';
 import { Header1Component } from './views/header1/header1.component';
 import { DashboardSwiperComponent } from './views/card/dashboard-swiper/dashboard-swiper.component';
 import { ImageAutoPlayComponent } from './views/image-auto-play/image-auto-play.component';
-
+import {CarouselModule} from 'ngx-bootstrap';
+import {ButtonsModule} from 'ngx-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,15 +29,19 @@ import { ImageAutoPlayComponent } from './views/image-auto-play/image-auto-play.
     HelloWorldComponent,
     Header1Component,
     DashboardSwiperComponent,
-    ImageAutoPlayComponent
+    ImageAutoPlayComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    CarouselModule.forRoot(),
+    ButtonsModule.forRoot(),
   ],
   providers: [
   ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+

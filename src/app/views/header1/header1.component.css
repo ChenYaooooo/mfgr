@@ -1,8 +1,22 @@
 .headerBox{
-    width: 100%;
+  width: 100%; 
     height: 50px;
-    background-color: #8C8C8C;
+    /* background-color: #8C8C8C; */
+    /* background-color: #3f51b5; */
+    background-color: #007bff;
+    margin: 0 auto;
+    /* position: fixed; */
 }
+@media screen and (max-width: 500px) {
+    .headerBox{
+        height: 130px;
+    }
+  }
+/* .btn-primary {
+    color: #fff;
+    background-color: #3f51b5;
+    border-color: #3f51b5;
+} */
 .dash{
     /* font-family: Helvetica; */
     font-family: "微软雅黑"; 
@@ -11,9 +25,14 @@
     letter-spacing: 0;
     text-align: left;
     line-height: 48px;
-    margin-right:10px;
+    margin-right:5%;
 }
 
-.hoverEffect:hover{
-    color: red;
+
+/* .parent{
+    text-align: left;
 }
+.parent > .child {
+    width: 100%; 
+    height: 50px;
+} */

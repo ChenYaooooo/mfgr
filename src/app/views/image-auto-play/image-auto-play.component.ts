@@ -21,12 +21,10 @@ export class ImageAutoPlayComponent implements AfterViewInit, OnDestroy {
   }
 
 routerOnActivate() {
-  console.log("true");
   var leftNum = -1800;
   this.timer = setInterval(() => {
     leftNum = leftNum - 1;
     document.getElementById('image-gallery').style.left = leftNum + 'px';
-    console.log(leftNum);
     if (leftNum > 0) {
       leftNum = -1800;
     }

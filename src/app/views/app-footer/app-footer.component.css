@@ -1,6 +1,7 @@
 .footerBox {
 	height: 220px;
-	background: #265ab9
+	/* background: #265ab9 */
+	background-color: #3f51b5;
 }
 .footerUl {
 	height: 42px;
@@ -64,5 +65,5 @@
 	overflow: hidden;
 }
 .w1002 {
-	width: 1002px;
+	width: 100%;
 }
