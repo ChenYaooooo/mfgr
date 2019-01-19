@@ -16,6 +16,9 @@ import { DashboardSwiperComponent } from './views/card/dashboard-swiper/dashboar
 import { ImageAutoPlayComponent } from './views/image-auto-play/image-auto-play.component';
 import {CarouselModule} from 'ngx-bootstrap';
 import {ButtonsModule} from 'ngx-bootstrap';
+import { AccordionModule } from 'ngx-bootstrap';
+import { OrderDetailComponent } from './views/card/order-detail/order-detail.component';
+import { ProductDetailComponent } from './views/product-detail/product-detail.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,12 +33,15 @@ import {ButtonsModule} from 'ngx-bootstrap';
     Header1Component,
     DashboardSwiperComponent,
     ImageAutoPlayComponent,
+    OrderDetailComponent,
+    ProductDetailComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CarouselModule.forRoot(),
     ButtonsModule.forRoot(),
+    AccordionModule.forRoot(),
   ],
   providers: [
   ],

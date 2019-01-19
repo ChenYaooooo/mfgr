@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="product-category">
+        钢材
+    </div>
+    <div class="row">
+        <div *ngFor="let item of products1" class="col">
+            <app-order-detail [prouctDetail]="item"></app-order-detail>
+        </div>
+    </div>
+    <div class="product-category">
+            钢管
+        </div>
+        <div class="row">
+            <div *ngFor="let item of products2" class="col">
+                <app-order-detail [prouctDetail]="item"></app-order-detail>
+            </div>
+        </div>
+        
+        <div class="product-category">
+            钢板
+        </div>
+        <div class="row">
+            <div *ngFor="let item of products3" class="col">
+                <app-order-detail [prouctDetail]="item"></app-order-detail>
+            </div>
+        </div>
+</div>
+

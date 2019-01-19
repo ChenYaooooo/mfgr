@@ -6,6 +6,7 @@ import { AppContactComponent } from './views/app-contact/app-contact.component';
 import { AppOrderComponent } from './views/app-order/app-order.component';
 import { AppProductServiceComponent } from './views/app-product-service/app-product-service.component';
 import { HelloWorldComponent } from './views/hello-world/hello-world.component';
+import { ProductDetailComponent } from './views/product-detail/product-detail.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'contactus', component: AppContactComponent },
   { path: 'order', component: AppOrderComponent },
   { path: 'productandservice', component: AppProductServiceComponent },
+  { path: 'productdetail', component: ProductDetailComponent },
 ];
 
 @NgModule({

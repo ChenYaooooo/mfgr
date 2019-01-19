@@ -1,3 +1,24 @@
-<p>
-  app-product-service works!
-</p>
+<div style="height: 300px; width: 100%;position: relative;">
+    <img style="height:300px;width:100%;position:absolute" src="assets/img/product-service.png">
+    <div class="text-container">
+        Products and services
+    </div>
+  </div>
+
+  <div class="row part2">
+      <div class="col-4">
+        <div *ngFor="let item of abouts">
+          <span class="clickable" (click)="selectAbout(item)">{{item.title}}</span>
+        </div>
+      </div>
+    <div class="col-8">
+      <div class="part2-header">
+        <div class="part2-header-title">
+          {{currentItem.title}}
+        </div>
+      </div>
+      <div>
+          {{currentItem.content}}
+      </div>
+    </div>
+  </div>

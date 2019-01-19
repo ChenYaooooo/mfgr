@@ -1,0 +1,28 @@
+.text-container{
+    height: 40px;
+    position: absolute;
+    color: white;
+    font-family: PingFangSC-Regular;
+    font-size: 26px;
+    color: #FFFFFF;
+    bottom: 50px;
+    right: 50px;
+    border-bottom: grey solid 5px;
+}
+.part2{
+    height: 400px;
+}
+
+.part2-header{
+    background: #979797;
+    border: 1px solid #979797;
+    height:50px;
+    width:80%;
+}
+.part2-header-title{
+    background: #4A60AB;
+    border: 1px solid #4A60AB;
+    height:100%;
+    width:auto;
+    padding: 5px;
+}

@@ -1,0 +1,17 @@
+.part2{
+    height: 400px;
+}
+
+.part2-header{
+    background: #979797;
+    border: 1px solid #979797;
+    height:50px;
+    width:80%;
+}
+.part2-header-title{
+    background: #4A60AB;
+    border: 1px solid #4A60AB;
+    height:100%;
+    width:85px;
+    padding: 5px;
+}
