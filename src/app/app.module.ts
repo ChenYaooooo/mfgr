@@ -19,6 +19,7 @@ import {ButtonsModule} from 'ngx-bootstrap';
 import { AccordionModule } from 'ngx-bootstrap';
 import { OrderDetailComponent } from './views/card/order-detail/order-detail.component';
 import { ProductDetailComponent } from './views/product-detail/product-detail.component';
+import { LoginComponent } from './views/login/login.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,6 +36,7 @@ import { ProductDetailComponent } from './views/product-detail/product-detail.co
     ImageAutoPlayComponent,
     OrderDetailComponent,
     ProductDetailComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
