@@ -9,6 +9,7 @@ import { About } from '../../models/aboutus';
 export class AppProductServiceComponent implements OnInit {
   abouts: About[];
   currentItem: About;
+  choosedIndex = 0;
   constructor() { }
 
   ngOnInit() {
@@ -37,7 +38,9 @@ export class AppProductServiceComponent implements OnInit {
 
     this.currentItem = this.abouts[0];
   }
-  selectAbout(item) {
+  selectAbout(item, i) {
     this.currentItem = item;
+    this.choosedIndex = i;
+    console.log(i);
   }
 }

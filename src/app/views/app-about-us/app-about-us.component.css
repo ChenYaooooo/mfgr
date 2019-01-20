@@ -10,6 +10,9 @@
     border-bottom: grey solid 5px;
 }
 .part2{
+    margin-top:15px;
+}
+.part3{
     height: 400px;
 }
 
@@ -22,7 +25,42 @@
 .part2-header-title{
     background: #4A60AB;
     border: 1px solid #4A60AB;
-    height:100%;
-    width:auto;
+    height: 50px;
+    /* width: 100px; */
     padding: 5px;
+    font-family: PingFangSC-Regular;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: inline-block;
+    width: auto;
 }
+
+.about-list{
+    font-family: PingFangSC-Regular;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 60%;
+    margin-top: 100px;
+}
+.title-border{
+    margin-top: 5px;
+    /* border: red solid 1px; */
+    width: 80%;
+    border: 2px dashed #275AB5;
+}
+@media screen and (max-width: 500px) {
+    .about-list{
+        margin-left: 20%;
+    }
+    .part2-header{
+        width:100%;
+    }
+    .title-border{
+        width: 100%;
+    }
+  }
+.blue-color{
+    /* color: #4A90E2; */
+    color:#007bff;
+}
+

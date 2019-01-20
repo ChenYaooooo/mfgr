@@ -10,6 +10,7 @@ export class AppAboutUsComponent implements OnInit {
 
   abouts: About[];
   currentItem: About;
+  choosedIndex = 0;
   constructor() { }
 
   ngOnInit() {
@@ -30,8 +31,10 @@ export class AppAboutUsComponent implements OnInit {
     this.currentItem = this.abouts[0];
   }
 
-  selectAbout(item) {
+  selectAbout(item, i) {
     this.currentItem = item;
+    this.choosedIndex = i;
+    console.log(i);
   }
 
 }

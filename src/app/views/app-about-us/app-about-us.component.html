@@ -1,23 +1,30 @@
 <div style="height: 300px; width: 100%;position: relative;">
   <img style="height:300px;width:100%;position:absolute" src="assets/img/pic_top01.png">
   <div class="text-container">
-      ABOUT  US
+    ABOUT US
   </div>
 </div>
 <div class="row part2">
-    <div class="col-4">
-      <div *ngFor="let item of abouts">
-        <span class="clickable" (click)="selectAbout(item)">{{item.title}}</span>
-      </div>
-    </div>
+  <div class="col-4">
+  </div>
   <div class="col-8">
     <div class="part2-header">
       <div class="part2-header-title">
         {{currentItem.title}}
       </div>
     </div>
-    <div>
-        {{currentItem.content}}
+    <div class="title-border">
     </div>
   </div>
+</div>
+<div class="row part3">
+  <div class="col-4">
+    <div *ngFor="let item of abouts; let i = index">
+      <span class="clickable about-list" [class.blue-color]="i == choosedIndex" (click)="selectAbout(item, i)">{{item.title}}</span>
+    </div>
+  </div>
+  <div class="col-8" style="margin-top: 15px;">
+    {{currentItem.content}}
+  </div>
+
 </div>

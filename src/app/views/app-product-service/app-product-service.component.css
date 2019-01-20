@@ -1,4 +1,7 @@
 .part2{
+    margin-top:15px;
+}
+.part3{
     height: 400px;
 }
 
@@ -11,7 +14,57 @@
 .part2-header-title{
     background: #4A60AB;
     border: 1px solid #4A60AB;
-    height:100%;
-    width:85px;
+    height: 50px;
+    /* width: 100px; */
     padding: 5px;
+    font-family: PingFangSC-Regular;
+    font-size: 20px;
+    color: #FFFFFF;
+    display: inline-block;
+    width: auto;;
 }
+
+.part2-header-detail{
+    display: inline-block;
+    width: auto;
+    position: absolute;
+    right: 30%;
+    font-size: 18px;
+    margin-top: 12px;
+}
+.about-list{
+    font-family: PingFangSC-Regular;
+    font-size: 20px;
+    color: #000000;
+    margin-left: 60%;
+    margin-top: 100px;
+}
+.blue-color{
+    /* color: #4A90E2; */
+    color:#007bff;
+}
+.title-border{
+    margin-top: 5px;
+    /* border: red solid 1px; */
+    width: 80%;
+    border: 2px dashed #275AB5;
+}
+@media screen and (max-width: 500px) {
+    .about-list{
+        margin-left: 5px;
+        white-space: nowrap;/*内容超宽后禁止换行显示*/
+
+        overflow: hidden;/*超出部分隐藏*/
+
+        text-overflow:ellipsis;/*文字超出部分以省略号显示*/
+    }
+    .part2-header{
+        width:100%;
+    }
+    .title-border{
+        width: 100%;
+    }
+    .part2-header-detail{
+        right: 20%;
+    }
+  }
