@@ -19,3 +19,7 @@
     color: #F5A623;
 border: 1px solid #F5A623;
 }
+.redcolor {
+    /* color: red !important; */
+    box-shadow: 0 0 0 0.2rem rgba(38,143,255,.5) !important;
+}
