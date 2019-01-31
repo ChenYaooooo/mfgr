@@ -10,7 +10,6 @@ import { AppAboutUsComponent } from './views/app-about-us/app-about-us.component
 import { AppProductServiceComponent } from './views/app-product-service/app-product-service.component';
 import { AppOrderComponent } from './views/app-order/app-order.component';
 import { AppContactComponent } from './views/app-contact/app-contact.component';
-import { HelloWorldComponent } from './views/hello-world/hello-world.component';
 import { Header1Component } from './views/header1/header1.component';
 import { DashboardSwiperComponent } from './views/card/dashboard-swiper/dashboard-swiper.component';
 import { ImageAutoPlayComponent } from './views/image-auto-play/image-auto-play.component';
@@ -20,6 +19,7 @@ import { AccordionModule } from 'ngx-bootstrap';
 import { OrderDetailComponent } from './views/card/order-detail/order-detail.component';
 import { ProductDetailComponent } from './views/product-detail/product-detail.component';
 import { LoginComponent } from './views/login/login.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,13 +30,12 @@ import { LoginComponent } from './views/login/login.component';
     AppProductServiceComponent,
     AppOrderComponent,
     AppContactComponent,
-    HelloWorldComponent,
     Header1Component,
     DashboardSwiperComponent,
     ImageAutoPlayComponent,
     OrderDetailComponent,
     ProductDetailComponent,
-    LoginComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -44,6 +43,8 @@ import { LoginComponent } from './views/login/login.component';
     CarouselModule.forRoot(),
     ButtonsModule.forRoot(),
     AccordionModule.forRoot(),
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [
   ],

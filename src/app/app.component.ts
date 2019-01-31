@@ -15,6 +15,9 @@ export class AppComponent {
       event => {
         if (event instanceof NavigationEnd) {
           console.log(event.url);
+          if (event.url === '/login') {
+            this.showHeader = false;
+          }
         }
       }
     );
