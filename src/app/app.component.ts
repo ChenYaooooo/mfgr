@@ -17,6 +17,8 @@ export class AppComponent {
           console.log(event.url);
           if (event.url === '/login') {
             this.showHeader = false;
+          } else {
+            this.showHeader = true;
           }
         }
       }

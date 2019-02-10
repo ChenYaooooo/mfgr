@@ -20,6 +20,7 @@ import { OrderDetailComponent } from './views/card/order-detail/order-detail.com
 import { ProductDetailComponent } from './views/product-detail/product-detail.component';
 import { LoginComponent } from './views/login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AppQualityCertificationComponent } from './views/app-quality-certification/app-quality-certification.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +36,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ImageAutoPlayComponent,
     OrderDetailComponent,
     ProductDetailComponent,
-    LoginComponent
+    LoginComponent,
+    AppQualityCertificationComponent
   ],
   imports: [
     BrowserModule,

@@ -1,10 +1,16 @@
 <!-- <div style="width:100%;height:100%;background-image: url(/assets/img/logo.png)"> -->
   <div class="loginContainer">
-    <div>
+    <div class="login-header">
+      欢迎登录
+    </div>
+    <div class="row-item">
       <input class="inBox" required name="username" type="text" placeholder="用户名" [formControl]="usernameFormControl" [(ngModel)]="username">
     </div>
-    <div>
+    <div  class="row-item">
       <input class="inBox" required name="password" type="text" placeholder="密码" [formControl]="passwordFormControl" [(ngModel)]="password">
     </div>
+    <div  class="row-item" style="margin-bottom: 30px;">
+    <button  type="button" class="btn btn-primary inBox">登录</button>
+  </div>
   </div>
 <!-- </div> -->

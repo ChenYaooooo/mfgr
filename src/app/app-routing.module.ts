@@ -7,6 +7,7 @@ import { AppOrderComponent } from './views/app-order/app-order.component';
 import { AppProductServiceComponent } from './views/app-product-service/app-product-service.component';
 import { ProductDetailComponent } from './views/product-detail/product-detail.component';
 import { LoginComponent } from './views/login/login.component';
+import { AppQualityCertificationComponent } from './views/app-quality-certification/app-quality-certification.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'productandservice', component: AppProductServiceComponent },
   { path: 'productdetail', component: ProductDetailComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'zhiliangzhengming', component: AppQualityCertificationComponent },
 ];
 
 @NgModule({
