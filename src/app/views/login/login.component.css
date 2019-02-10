@@ -6,6 +6,7 @@
     /* border: 5px solid red; */
     background: grey;
     width: 400px;
+    margin-top: 10px;
 }
 .inBox {
     width: 50% !important;

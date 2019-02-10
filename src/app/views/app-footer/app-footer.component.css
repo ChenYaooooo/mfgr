@@ -67,3 +67,19 @@
 .w1002 {
 	width: 100%;
 }
+
+@media screen and (max-width: 500px) {
+	.footerNav li {
+		right: 71%;
+	}
+
+	.footerNav li span {
+		padding: 3px;
+	}
+	.footerNav li a {
+		font-size: 8px;
+	}
+	.footer p{
+		font-size: 10px;
+	}
+  }
