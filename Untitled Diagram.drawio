@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T13:47:38.481Z" agent="5.0 (Macintosh)" etag="Ws9inhOnWG2fjuPNJ4es" version="17.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-09T13:56:56.030Z" agent="5.0 (Macintosh)" etag="l4iGHGT43cQt9fhH49qV" version="17.0.0" type="github" pages="2">
   <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
     <mxGraphModel dx="1186" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -254,6 +254,63 @@
       <root>
         <mxCell id="uxdPfEvbi6vGh2MHvjIU-0" />
         <mxCell id="uxdPfEvbi6vGh2MHvjIU-1" parent="uxdPfEvbi6vGh2MHvjIU-0" />
+        <mxCell id="949uCCy_Z0GsvPWzsYu_-0" value="&lt;span style=&quot;box-sizing: inherit ; color: rgb(29 , 28 , 29) ; font-family: , , &amp;#34;applelogo&amp;#34; , sans-serif ; font-size: 15px ; font-style: normal ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 248 , 248)&quot;&gt;RPA Journal file processing startup&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uxdPfEvbi6vGh2MHvjIU-1">
+          <mxGeometry x="290" y="360" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="949uCCy_Z0GsvPWzsYu_-1" value="&lt;span style=&quot;color: rgb(29 , 28 , 29) ; font-family: , , &amp;#34;applelogo&amp;#34; , sans-serif ; font-size: 15px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 248 , 248) ; display: inline ; float: none&quot;&gt;R2A Journal Job Startup&lt;span&gt; &lt;br&gt;&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uxdPfEvbi6vGh2MHvjIU-1">
+          <mxGeometry x="290" y="450" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="949uCCy_Z0GsvPWzsYu_-2" value="&lt;span style=&quot;color: rgb(29 , 28 , 29) ; font-family: , , &amp;#34;applelogo&amp;#34; , sans-serif ; font-size: 15px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 248 , 248) ; display: inline ; float: none&quot;&gt;r2a journal file combiner start&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uxdPfEvbi6vGh2MHvjIU-1">
+          <mxGeometry x="290" y="540" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="949uCCy_Z0GsvPWzsYu_-3" value="&lt;span style=&quot;color: rgb(29 , 28 , 29) ; font-family: , , &amp;#34;applelogo&amp;#34; , sans-serif ; font-size: 15px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 248 , 248) ; display: inline ; float: none&quot;&gt;RPA Journal file processing&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uxdPfEvbi6vGh2MHvjIU-1">
+          <mxGeometry x="290" y="630" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="949uCCy_Z0GsvPWzsYu_-6" value="&lt;span style=&quot;color: rgb(29 , 28 , 29) ; font-family: , , &amp;#34;applelogo&amp;#34; , sans-serif ; font-size: 15px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 248 , 248) ; display: inline ; float: none&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;RPA Journal report created&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uxdPfEvbi6vGh2MHvjIU-1">
+          <mxGeometry x="290" y="730" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="949uCCy_Z0GsvPWzsYu_-7" value="&lt;span style=&quot;color: rgb(29 , 28 , 29) ; font-family: , , &amp;#34;applelogo&amp;#34; , sans-serif ; font-size: 15px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 248 , 248) ; display: inline ; float: none&quot;&gt;R2A Journal file combiner end&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="uxdPfEvbi6vGh2MHvjIU-1">
+          <mxGeometry x="290" y="820" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="949uCCy_Z0GsvPWzsYu_-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="uxdPfEvbi6vGh2MHvjIU-1" source="949uCCy_Z0GsvPWzsYu_-0" target="949uCCy_Z0GsvPWzsYu_-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="470" as="sourcePoint" />
+            <mxPoint x="450" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="949uCCy_Z0GsvPWzsYu_-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="uxdPfEvbi6vGh2MHvjIU-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="409.5" y="510" as="sourcePoint" />
+            <mxPoint x="409.5" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="949uCCy_Z0GsvPWzsYu_-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="uxdPfEvbi6vGh2MHvjIU-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="409.5" y="600" as="sourcePoint" />
+            <mxPoint x="409.5" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="949uCCy_Z0GsvPWzsYu_-13" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uxdPfEvbi6vGh2MHvjIU-1" source="949uCCy_Z0GsvPWzsYu_-3" target="949uCCy_Z0GsvPWzsYu_-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="700" as="sourcePoint" />
+            <mxPoint x="570" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="650" />
+              <mxPoint x="620" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="949uCCy_Z0GsvPWzsYu_-14" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="uxdPfEvbi6vGh2MHvjIU-1" source="949uCCy_Z0GsvPWzsYu_-0" target="949uCCy_Z0GsvPWzsYu_-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="670" as="sourcePoint" />
+            <mxPoint x="410" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="470" />
+              <mxPoint x="180" y="560" />
+              <mxPoint x="190" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
